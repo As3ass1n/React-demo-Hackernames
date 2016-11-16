@@ -1,0 +1,26 @@
+.newsItem {
+    color: #828282;
+    margin-top: 5px;
+    align-items: baseline;
+    display: flex;
+}
+
+.newsItem-titleLink {
+    color: black;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.newsItem-itemText {
+    flex-grow: 1;
+}
+
+.newsItem-domain {
+    font-size: 8pt;
+    margin-left: 5px;
+}
+
+.newsItem-domain > a {
+    color: #828282;
+    text-decoration: none;
+}
